@@ -15,7 +15,7 @@ class Graph:
         if u_node not in self.graph:
             self.graph[u_node] = []
         self.graph[u_node].append(v_node)
-        
+
     def bfs(self, start):
         """Perform Breadth-First Search starting from the given node."""
         visited = set()
